@@ -64,6 +64,7 @@ export default function Index() {
     return () => subscription?.remove();
   }, []);
 
+  // commented refresh 
   // const onRefresh = () => {
   //   setIsRefreshing(true);
   //   webViewRef.current.reload();
