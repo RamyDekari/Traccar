@@ -27,7 +27,7 @@ export default function Index() {
     })();
   }, []);
 
-  // Handle Android back button
+  // Handle Android back buttonn
   useEffect(() => {
     const backAction = () => {
       if (canGoBack && webViewRef.current) {
